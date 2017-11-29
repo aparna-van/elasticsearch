@@ -401,7 +401,7 @@ The `task_id` can be found using the tasks API above.
 Just like when setting it on the `_delete_by_query` API `requests_per_second`
 can be either `-1` to disable throttling or any decimal number
 like `1.7` or `12` to throttle to that level. Rethrottling that speeds up the
-query takes effect immediately but rethrotting that slows down the query will
+query takes effect immediately but rethrottling that slows down the query will
 take effect on after completing the current batch. This prevents scroll
 timeouts.
 
